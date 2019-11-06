@@ -100,7 +100,7 @@ h3 {
 }
 
 .card__one .card__bg {
-  background: url("img/3dr_monobg.jpg") center/cover no-repeat;
+  background: url("../img/3dr_monobg.jpg") center/cover no-repeat;
 }
 
 .card__two .card__img {
@@ -108,7 +108,7 @@ h3 {
 }
 
 .card__two .card__bg {
-  background: url("img/3dr_spirited.jpg") center/cover no-repeat;
+  background: url("../img/3dr_spirited.jpg") center/cover no-repeat;
 }
 
 .card__three .card__img {
@@ -118,7 +118,7 @@ h3 {
 }
 
 .card__three .card__bg {
-  background: url("img/3dr_howlbg.jpg") center/cover no-repeat;
+  background: url("../img/3dr_howlbg.jpg") center/cover no-repeat;
 }
 
 .card__text {
