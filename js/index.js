@@ -24,8 +24,7 @@ document.addEventListener('mousemove', function(_ref) {
   });
 }, false);
 
-$(function() {
-  $('.card__one').on('click', function() {
-    window.location.href = './html/photos.html'
-  })
+var goPhotosPage = document.getElementsByClassName('card__one')[0]
+goPhotosPage.addEventListener('click', function() {
+  window.location.href = './html/photos.html'
 })
