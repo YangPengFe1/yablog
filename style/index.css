@@ -59,6 +59,7 @@ h3 {
 }
 
 .card {
+  cursor: pointer;
   border-radius: 15px;
   box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
   display: inline-block;

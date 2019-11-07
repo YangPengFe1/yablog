@@ -14,15 +14,18 @@ document.addEventListener('mousemove', function(_ref) {
   timeout = window.requestAnimationFrame(function() {
     var yValue = calcValue(y, window.innerHeight);
     var xValue = calcValue(x, window.innerWidth);
-    console.log(xValue, yValue);
     cards.style.transform = "rotateX(" + yValue + "deg) rotateY(" + xValue + "deg)";
-
     [].forEach.call(images, function(image) {
       image.style.transform = "translateX(" + -xValue + "px) translateY(" + yValue + "px)";
     });
-
     [].forEach.call(backgrounds, function(background) {
       background.style.backgroundPosition = xValue * .45 + "px " + -yValue * .45 + "px";
     });
   });
 }, false);
+
+$(function() {
+  $('.card__one').on('click', function() {
+    window.location.href = './html/photos.html'
+  })
+})
